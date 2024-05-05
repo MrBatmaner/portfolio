@@ -29,11 +29,13 @@ function Hero({ pageInfo }: Props) {
         alt=""
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-lg md:text-2xl lg:text-2xl xl:text-2xl uppercase text-gray-500 pb-2 tracking-[5px] md:tracking-[15px] lg:tracking-[15px] xl:tracking-[15px]">
           {pageInfo?.role}
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-          <span className="mr-3">{text}</span>
+          <span className="mr-3 text-xl md:text-3xl lg:text-4xl xl:text-4xl">
+            {text}
+          </span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
 
@@ -47,7 +49,7 @@ function Hero({ pageInfo }: Props) {
           <Link href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
-          <Link href="#project">
+          <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
         </div>

@@ -36,17 +36,6 @@ function Header({ socials }: Props) {
             bgColor="transparent"
           />
         ))}
-
-        <SocialIcon
-          url="https://www.youtube.com/@Joker8atman"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://www.youtube.com/@Joker8atman"
-          fgColor="gray"
-          bgColor="transparent"
-        />
       </motion.div>
 
       <Link href="#contact">
@@ -66,12 +55,6 @@ function Header({ socials }: Props) {
           }}
           className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
-          <SocialIcon
-            fgColor="gray"
-            bgColor="transparent"
-            className="cursor-pointer"
-            network="email"
-          />
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
             Get In Touch
           </p>

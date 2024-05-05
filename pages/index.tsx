@@ -41,7 +41,9 @@ const Home = ({ pageInfo, experiences, projects, skills, socials }: Props) => {
 
       {/* Header */}
 
-      {/*<Header socials={socials} />
+      <Header socials={socials} />
+
+      {/*<Header />*/}
 
       {/* Hero */}
       <section id="hero" className="snap-start">
@@ -75,7 +77,7 @@ const Home = ({ pageInfo, experiences, projects, skills, socials }: Props) => {
       {/* Contact Me */}
 
       <section id="contact" className="snap-start">
-        <ContactMe />
+        <ContactMe pageInfo={pageInfo} />
       </section>
 
       <Link href="#hero">
