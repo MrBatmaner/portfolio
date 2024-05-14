@@ -16,6 +16,7 @@ import { fetchExperiences } from "@/utils/fetchExperiences";
 import { fetchSkills } from "@/utils/fetchSkills";
 import { fetchProjects } from "@/utils/fetchProjects";
 import { fetchSocials } from "@/utils/fetchSocials";
+export const runtime = "experimental-edge";
 
 type Props = {
   pageInfo: PageInfo;
